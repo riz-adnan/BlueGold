@@ -1,0 +1,102 @@
+/* CaseBattleDark.css */
+
+.case-battle {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .coin-display {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+  }
+  
+  .game-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .game-button:hover {
+    background-color: #45a049;
+  }
+  
+  .game-button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+  }
+  
+  .room-list {
+    margin: 20px 0;
+  }
+  
+  .room-item {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .room-item:hover {
+    background-color: #555;
+  }
+  
+  .player-list {
+    margin: 20px 0;
+  }
+  
+  .player-item {
+    background-color: #444;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .bid-results {
+    margin: 20px 0;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .rolling-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .slot {
+    margin: 0 10px;
+  }
+  
+  .dice-icon {
+    font-size: 3em;
+    color: #ffcc00;
+  }
+  
+  .rolling {
+    animation: roll 1s infinite;
+  }
+  
+  @keyframes roll {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
